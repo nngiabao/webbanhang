@@ -1,0 +1,180 @@
+.clear-both
+{
+  clear: both;
+}
+
+h1{
+text-align: center;
+}
+
+.product-items
+{
+  border: 1px none;
+  position: relative;
+  width: 118%;
+}
+
+.product-item
+{
+  float: left;
+  width: 23%;
+  margin: 8px;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px groove #ccc;
+  line-height: 30px;
+  box-shadow: 0px 0px 4px 4px #E0E0E0;
+  position: relative;
+}
+
+.product-item label
+{
+  font-weight: bold;
+}
+
+.product-item p
+{
+  margin: 0;
+  line-height: 13px;
+  max-height: 50px;
+  overflow: hidden;
+}
+
+.gia_sanpham
+{
+  color: red;
+  font-weight: bold;
+  position: absolute;
+  top: 242px;
+  left: 27px;
+}
+
+.img_sp
+{
+  padding: 0px;
+  border: 1px groove #ccc;
+  margin-right: 0px;
+  position: relative;
+}
+
+.product-item img
+{
+  max-width: 100%;
+}
+
+.product-item ul
+{
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid #ccc;
+}
+
+.product-item ul li
+{
+  float: left;
+  width: 33.3333%;
+  list-style: none;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-right: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+.buy-button
+{
+  text-align: right;
+  margin-top: 10px;
+}
+
+.buy-button a
+{
+  background: red;
+  padding: 5px;
+  color: #fff;
+}
+
+.buy-button a:hover
+{
+  background: #1E88E5;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0px 0px 3px 3px #90CAF9;
+  transition: all 0.3s;
+}
+
+.chitiet_sanpham
+{
+  text-align: left;
+  line-height: 8px;
+}
+
+.chitiet_sanpham input
+{
+  background: #1976D2;
+  color: #fff;
+  position: absolute;
+  margin: 11px;
+  padding: 9px;
+  left: -5px;
+}
+
+.chitiet_sanpham input:hover
+{
+  background: #7E57C2;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0px 0px 3px 3px #B39DDB;
+  transition: all 0.3s;
+}
+
+#phantrang
+{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.page-item
+{
+  border: 1px solid #1E88E5;
+  padding: 5px 9px;
+  color: #42A5F5;
+  border-radius: 50%;
+}
+
+.page-item:hover
+{
+ background:#1976D2;
+ color: white;
+ text-decoration: none;
+ transition: all 0.3s;
+ box-shadow: 0px 0px 3px 3px #90CAF9; 
+}
+
+.page-items
+{
+  border: 1px solid #1E88E5;
+  padding: 5px 9px;
+  color: #42A5F5;
+  border-radius: 3px;
+}
+
+.page-items:hover
+{
+  background:#1976D2;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s;
+  box-shadow: 0px 0px 3px 3px #90CAF9;
+}
+
+.current-page
+{
+  background: #0D47A1;
+  color: #fff;
+  border-radius: 50%;
+}

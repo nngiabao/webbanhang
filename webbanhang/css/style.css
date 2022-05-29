@@ -1,0 +1,160 @@
+
+.header-center
+{
+	padding: 30px 0px;
+}
+
+.search
+{
+	padding-top: 35px;
+}
+
+.logo img
+{
+	width: 250px;
+}
+
+input.form-control
+{
+	width: 300px;
+	float: left;
+	border-radius: 2px;
+}
+
+.hotline
+{
+	padding-top: 35px;
+}
+
+.hotline_icon
+{
+	float: left;
+	border-radius: 50%;
+	background-color: #ffa800;
+	/*box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);*/
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+}
+
+.hotline_nd
+{
+	overflow: hidden;
+	padding-top: 5px;
+}
+
+.hotline_nd p
+{
+	margin-bottom: 0px;
+	/*font-weight: 700; /*dùng để thiết lập việc văn bản có được "in đậm" hay không*/
+	color: #ffa800;
+	/*text-transform: uppercase;
+	/*letter-spacing: 1px; /* tăng hoặc giảm khoảng cách giữa các ký tự trong đoạn text.*/
+	font-size: 13px;
+	line-height: 1;
+}
+
+.login
+{
+	padding-top: 35px;
+}
+.login .btn-primary a
+{
+	color: white;
+	text-decoration: none;
+}
+
+button.btn.btn-primary
+{
+	background: #29B6F6;
+}
+button.btn.btn-primary:hover
+{
+	background: #01579B;
+	transition: all 0.3s;
+}
+
+								/*Menu*/
+
+
+.main-menu
+{
+	background: #039BE5;
+	height: 45px;
+}
+
+ul.menu>li
+{
+	padding:0px;
+	margin: 0px;
+	list-style: none;
+	position: relative;
+}
+
+ul.menu>li>ul.sub-menu
+{
+	position: absolute;
+	background: #039BE5;
+	left: 0;
+	width: 200px;
+	display: block;
+	z-index: 0;
+}
+
+.menu .active .sub-menu li a
+{
+	width: 317px;
+	margin-left: -40px;
+	background: #039BE5;
+	text-align: center;
+	height:auto;
+	border-bottom: 2px white solid;
+}
+
+.menu .active .sub-menu li a:hover
+{
+	background: #01579B;
+	transition: all 0.3s;
+}
+
+ul.menu li:hover ul
+{
+	display: block;
+}
+
+.menu>li a
+{
+	color: white;
+	display: inline-block;
+	padding:12px 40px;
+	transition: all 0.3s;
+	text-transform: uppercase;
+	text-decoration: none;
+	max-width: 100%;
+	height: 45px;
+	line-height: 20px;
+	letter-spacing: 1.5px;
+}
+
+.menu>li a:hover
+{
+	background: #01579B;
+	text-decoration: none;
+}
+
+.main-menu .menu li
+{
+	display: inline-block;
+}
+
+.main-menu .menu .active a
+{
+	background: #01579B;
+}
+
+.main-menu .menu .sub-menu .menuleft:active
+{
+	background: red;
+}
